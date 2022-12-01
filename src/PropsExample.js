@@ -6,6 +6,7 @@ class PropsExample extends React.Component{
 			<div>
 			<p>Name:{this.props.name}</p>
 			<p>Age:{this.props.age}</p>
+			
 			</div>
 			)
 	}

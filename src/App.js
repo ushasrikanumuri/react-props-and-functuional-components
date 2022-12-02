@@ -1,3 +1,14 @@
+import Events from'./Events'
+function App(){
+  return(
+    <div>
+      <h1>Events</h1>
+      <Events/>
+    </div>
+  )
+}
+export default App
+
 /*import ClassComponent from "./Classcomponent"
 import ClassComponent1 from"./Classcomponent1"
 function Demo(){
@@ -26,15 +37,16 @@ export default Demo*/
 //     )
 //  }
 // export default App
-import StateExample from './StateExample'
-function App(){
-  return(
-    <div>
-    <StateExample/>
+// import StateExample from './StateExample'
+// function App(){
+//   return(
+//     <div>
+//     <StateExample/>
  
-    </div>
-  )
+//     </div>
+//   )
 
-}
-export default App
+// }
+// export default App
+
  
